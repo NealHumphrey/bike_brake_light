@@ -25,5 +25,6 @@ var addChart = function(container,csv_path){
 
 
 addChart('#knModel','/outputs/kn_model_comparison.csv')
+addChart('#knNoUpsampleModel','/outputs/kn_model_comparison_no_upsample.csv')
 addChart('#rfModel','/outputs/rf_model_comparison.csv')
 addChart('#svcModel','/outputs/svc_model_comparison.csv')
